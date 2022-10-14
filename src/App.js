@@ -1,5 +1,6 @@
 import Aos from 'aos';
 import './App.css';
+import Hero from './components/Hero/Hero';
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <div className="">
-      this is app js page
+      <Hero />
      
     </div>
   );
